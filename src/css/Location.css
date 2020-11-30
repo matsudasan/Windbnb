@@ -1,0 +1,30 @@
+.locations {
+    width: calc(40% + 20px);
+    display: flex;
+    justify-content: center;
+}
+
+.locations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.locations ul li {
+    width: auto;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.locations ul li span {
+    display: flex;
+    align-items: center;
+}
+
+.locations ul li label {
+    cursor: pointer;
+}
+
+.locations ul li span:hover {
+    color: #ff7f50;
+    fill: #ff7f50;
+}
